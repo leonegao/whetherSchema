@@ -1,0 +1,35 @@
+{"type":"object",
+     "properties":{
+     "cityid": {
+     "type":"string"
+    },
+    "cityname": {
+      "type": "string"
+    },
+    "currentcondition": {
+      "type": "string"
+	  "enum":["UK"]
+    },
+    "temperature": {
+      "type": "string"
+    },
+    "windspeed": {
+      "type": "string"
+    },
+    "winddirection": {
+      "type": "string"
+    },
+    "windchillfactor": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "cityid",
+    "cityname",
+    "currentcondition",
+    "temperature",
+    "windspeed",
+    "winddirection",
+    "windchillfactor"
+  ]
+}

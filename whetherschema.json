@@ -10,7 +10,7 @@
     },
     "currentcondition": {
       "type": "string"
-	  "enum":["UK"]
+	
     },
     "temperature": {
       "type": "string"
